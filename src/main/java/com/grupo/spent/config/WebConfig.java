@@ -14,7 +14,7 @@ public class WebConfig implements WebMvcConfigurer {
             @Override
             public void addCorsMappings(@NonNull CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://spent-front-end-lac.vercel.app") // Asegúrate de que no hay barra inclinada al final
+                        .allowedOrigins("https://spent-front-63fcu78z3-davidfreixes-projects.vercel.app") // Asegúrate de que no hay barra inclinada al final
                         .allowedMethods("GET", "POST", "DELETE", "PATCH", "PUT")
                         .allowedHeaders("*")
                         .allowCredentials(true);
